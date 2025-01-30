@@ -77,10 +77,10 @@ void lv_set_quit(lv_quit_event_t event)
 
 static void mouse_read(lv_indev_drv_t *indev_drv_gamepad, lv_indev_data_t *data)
 {
-    if (pad == NULL)
-    {
-        return;
-    }
+//    if (pad == NULL)
+//    {
+//        return;
+//    }
 
     data->state = (mouse_pressed) ? LV_INDEV_STATE_PRESSED : LV_INDEV_STATE_RELEASED;
 
