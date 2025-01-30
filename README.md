@@ -31,6 +31,25 @@ cmake ..
 cmake --build .
 ./lvgl_example
 ```
+## Build (Windows10 64bit)
+
+download SDL2-devel-2.0.18-mingw.tar.gz from https://github.com/libsdl-org/SDL/releases
+
+```
+https://github.com/libsdl-org/SDL/releases/download/release-2.0.18/SDL2-devel-2.0.18-mingw.tar.gz
+```
+
+
+Qt_5_14_1_MinGW_64_bit
+
+copy content in :
+```
+C:\Qt\SDL2
+```
+
+copy C:\Qt\SDL2\x86_64-w64-mingw32\bin\SDL2.dll
+
+to C:\Windows\System32
 
 ## Build (Windows)
 Install MYSYS2, then from a mingw64 environment:

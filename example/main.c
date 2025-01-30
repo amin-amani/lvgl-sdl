@@ -99,4 +99,5 @@ int main(int argc, char *argv[])
     lv_port_disp_deinit();
     lv_port_indev_deinit();
     lv_deinit();
+    return 0;
 }
