@@ -1,5 +1,7 @@
 bin
 build
+build-*
+*.user
 CMakeFiles
 CMakeCache.txt
 .vscode
